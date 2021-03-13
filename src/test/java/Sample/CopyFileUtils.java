@@ -20,7 +20,7 @@ public class CopyFileUtils extends ReportsTest{
 		System.out.println(ScrShotFileName);
 		File screenshotFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(screenshotFile, new File(".//Record//" + ScrShotFileName +".png"));
-		///
+//added dummy
 		
 	}
 
