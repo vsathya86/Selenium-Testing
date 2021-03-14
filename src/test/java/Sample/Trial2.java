@@ -17,7 +17,7 @@ public class Trial2 {
 	driver.get("https://www.ebay.ca/");
 	String ActualTitle = driver.getTitle();
     System.out.println(ActualTitle);
-    Assert.assertTrue(false);
+    
     driver.close();
     }
 }

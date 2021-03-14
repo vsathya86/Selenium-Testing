@@ -18,7 +18,7 @@ public class GroupsDemo {
 	public void ctest3()
 	{
 		System.out.println("test3");
-		Assert.assertTrue(false);
+		
 	}
 
 }

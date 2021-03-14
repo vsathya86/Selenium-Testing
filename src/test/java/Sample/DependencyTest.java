@@ -10,7 +10,6 @@ public class DependencyTest {
 	@Test
 	public void UserRegisteration() {	
 		System.out.println("This is for Registeration");
-		Assert.assertTrue(false);
 	}
 	@Test(dependsOnMethods = "UserRegisteration",alwaysRun=true)
 	public void UserSearch() {	

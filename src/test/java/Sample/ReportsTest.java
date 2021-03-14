@@ -16,7 +16,7 @@ public class ReportsTest {
 		driver = new ChromeDriver();
 		driver.get("https://www.ebay.ca/");
 		System.out.println("This is Test1");
-		Assert.assertTrue(false);
+		
 			}
 @Test
 	public void reporterTest2() {
